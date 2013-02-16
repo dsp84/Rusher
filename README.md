@@ -1,4 +1,4 @@
 Rusher 0.1
 ==========
 
-Rusher is a open source PHP Framework
+Rusher is an open source PHP Framework
