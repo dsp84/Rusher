@@ -4,7 +4,7 @@ namespace Rusher\Exception;
 
 use Rusher\Exception\BaseException;
 
-class Logger extends BaseException
+class LoggerException extends BaseException
 {
 
   public function __construct(\Exception $e)

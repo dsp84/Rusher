@@ -2,10 +2,12 @@
 
 namespace Rusher\Logger\Driver;
 
-use Rusher\Logger\Logger,
-    Rusher\Exception\Logger as LoggerException;
+use Rusher\BaseRusher,
+    Rusher\Logger\Logger,
+    Rusher\Exception\LoggerException,
+    Rusher\Interfaces\InterfaceDriver;
 
-class File extends BaseRusher implements Rusher\Interfaces\Logger\Driver
+class File extends BaseRusher implements InterfaceDriver
 {
 
   protected $logfile;
@@ -30,7 +32,7 @@ class File extends BaseRusher implements Rusher\Interfaces\Logger\Driver
   {
     try
     {
-      if (file_put_contents($this->logfile, '[' . date($this->format, time()) . ']:' . $message, FILE_APPEND) === false)
+      if (file_put_contents($this->logfile, '[' . date($this->format, time()) . '][' . $level . ']:' . $message."\n", FILE_APPEND) === false)
       {
         throw new \RuntimeException(sprintf('Unable to write your logfile "%s"', $this->logfile));
       }

@@ -1,11 +1,11 @@
 <?php
 
-namespace Rusher\Interfaces\Application;
+namespace Rusher\Interfaces;
 
 use Rusher\Routing\Routing,
     Rusher\Logger\Logger;
 
-interface Application
+interface InterfaceApplication
 {
 
   public function run();
