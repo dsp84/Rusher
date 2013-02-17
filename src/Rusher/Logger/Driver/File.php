@@ -5,7 +5,7 @@ namespace Rusher\Logger\Driver;
 use Rusher\BaseRusher,
     Rusher\Logger\Logger,
     Rusher\Exception\LoggerException,
-    Rusher\Interfaces\InterfaceDriver;
+    Rusher\Logger\Driver\InterfaceDriver;
 
 class File extends BaseRusher implements InterfaceDriver
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rusher\Interfaces;
+namespace Rusher\Logger\Driver;
 
 use Rusher\Logger\Logger;
 

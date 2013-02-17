@@ -1,6 +1,6 @@
 <?php
 
-namespace Rusher\Interfaces;
+namespace Rusher\Application;
 
 use Rusher\Routing\Routing,
     Rusher\Logger\Logger;

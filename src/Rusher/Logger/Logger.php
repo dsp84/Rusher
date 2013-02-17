@@ -3,8 +3,8 @@
 namespace Rusher\Logger;
 
 use Rusher\BaseRusher,
-    Rusher\Interfaces\InterfaceLogger,
-    Rusher\Interfaces\InterfaceDriver;
+    Rusher\Logger\InterfaceLogger,
+    Rusher\Logger\Driver\InterfaceDriver;
 
 class Logger extends BaseRusher implements InterfaceLogger
 {

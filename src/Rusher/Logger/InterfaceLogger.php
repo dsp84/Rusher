@@ -1,8 +1,8 @@
 <?php
 
-namespace Rusher\Interfaces;
+namespace Rusher\Logger;
 
-use Rusher\Interfaces\InterfaceDriver,
+use Rusher\Logger\Driver\InterfaceDriver,
     Rusher\Logger\Logger;
 
 interface InterfaceLogger

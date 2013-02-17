@@ -5,7 +5,7 @@ namespace Rusher\Application;
 use Rusher\BaseRusher,
     Rusher\Logger\Logger,
     Rusher\Routing\Routing,
-    Rusher\Interfaces\InterfaceApplication,
+    Rusher\Application\InterfaceApplication,
     Rusher\Exception\Application as ApplicationException;
 
 class Application extends BaseRusher implements InterfaceApplication
