@@ -1,0 +1,28 @@
+{
+  "name": "Rusher",
+  "description": "Rusher is an open source PHP framework",
+  "keywords": ["rusher", "open", "source", "php", "framework"],
+  "homepage": "https://github.com/dsp84/Rusher",
+  "type": "library",
+  "version": "dev-master",
+  "source": {
+    "url": "https://github.com/dsp84/Rusher.git",
+    "type": "git",
+    "reference": "master"
+  },
+  "authors": [
+  {
+    "name": "David Spickers",
+    "email": "d.spickers@dsp-devel.de",
+    "homepage": "http://www.dsp-devel.de"
+  }
+  ],
+  "require": {
+    "php": ">=5.2.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Rusher": "src"
+    }
+  }
+}
