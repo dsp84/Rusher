@@ -3,7 +3,7 @@
 namespace Rusher\Interfaces\Application;
 
 use Rusher\Routing\Routing,
-   Rusher\Logger\Logger;
+    Rusher\Logger\Logger;
 
 interface Application
 {

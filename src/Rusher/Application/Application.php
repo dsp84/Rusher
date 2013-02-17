@@ -3,9 +3,11 @@
 namespace Rusher\Application;
 
 use Rusher\BaseRusher,
-    Rusher\Logger\Logger;
+    Rusher\Logger\Logger,
+    Rusher\Routing\Routing,
+    Rusher\Interfaces\Application\Application as InterfaceApplication;
 
-class Application extends BaseRusher implements Rusher\Interfaces\Application\Application
+class Application extends BaseRusher implements InterfaceApplication
 {
 
   /**
